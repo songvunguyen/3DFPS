@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8173982589576518224}
   - component: {fileID: 8173982589576518228}
   - component: {fileID: 8173982589576518229}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ MonoBehaviour:
   lookSpeed: 60
   jumpPower: 8
   gravity: 9.81
-  jumpLeniency: 0.1
+  jumpTimeLeniency: 0.1
   playerShooter: {fileID: 7310579477786429937}
   playerHealth: {fileID: 8173982589576518228}
   disableWhileDead:
